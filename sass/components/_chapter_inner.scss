@@ -1,0 +1,51 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                  Chapter Inner css Start
+=========================================================*/
+#chapter_inner{
+    padding: 150px 0 100px;
+
+    .chapter_inner_heading{
+        text-align: center;
+        background: $w;
+        padding: 15px 30px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        a{
+            @include fs($bg1,28px,700);
+            img{
+                max-width: 200px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .chapter_inner_item{
+        text-align: center;
+        border-bottom: 1px solid $w;
+        padding: 50px 0;
+        h5{
+            @include fs($w,20px,400);
+            margin-bottom: 20px;
+        }
+        h4{
+            margin-bottom: 30px;
+            span{
+                @include fs($w,28px,700);
+                line-height: 40px;
+                display: block;
+            }
+        }
+        p{
+            @include fs($w,18px,400);
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
+/*=========================================================
+                  Chapter Inner css end
+=========================================================*/

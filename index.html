@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Somor Malakar, Email: samormk6@gmail.com">
+    <link rel="icon" href="/images/mongol-ghot.jpg">
+    <title>The Hindu Journal</title>
+    <!-- CSS Bundles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome Pro -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="center">
+            <img src="images/mongol-ghot.jpg" alt="">
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Menu Part Start -->
+    <nav id="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-10">
+                    <div class="nav_left">
+                        <!-- Side Offcanvas Menu Start -->
+                        <button title="মেনু এখনও কাজ চলছে" class="btn btn-primary nav_offcanvas_btn" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+                                class="fal fa-gopuram"></i> <i class="fas fa-om"></i></button>
+
+                        <!-- <div class="nav_offcanvas_inner offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                            aria-labelledby="offcanvasTopLabel">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+
+                            <div class="row nav_offcanvas_inner_row">
+                                <div class="col-lg-12">
+                                    <h3 class="nav_offcanvas_inner_head">আরো পড়ুন</h3>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <a href="#" class="nav_offcanvas_inner_item">
+                                        <div class="thumb">
+                                            <img src="images/gita-thumb2.jpg" alt="Gita">
+                                        </div>
+                                        <div class="text">
+                                            <h5>গীতা</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <a href="#" class="nav_offcanvas_inner_item">
+                                        <div class="thumb">
+                                            <img src="images/ramayan-thumb.jpeg" alt="Ramayan">
+                                        </div>
+                                        <div class="text">
+                                            <h5>রামায়ণ</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <a href="#" class="nav_offcanvas_inner_item">
+                                        <div class="thumb">
+                                            <img src="images/mahavarat-thumb.jpg" alt="Mahavarat">
+                                        </div>
+                                        <div class="text">
+                                            <h5>মহাভারত</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <a href="#" class="nav_offcanvas_inner_item">
+                                        <div class="thumb">
+                                            <img src="images/ramayan-thumb.jpeg" alt="Ramayan">
+                                        </div>
+                                        <div class="text">
+                                            <h5>রামায়ণ</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div> -->
+                        <!-- Side Offcanvas Menu End -->
+                        <!-- Logo Here -->
+                        <a class="main_logo" href="index.html">দী হিন্দু জার্নাল</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-2">
+                    <div class="nav_right">
+
+                        <ul>
+                            <li><button title="ভাষা পরিবর্তনে এখনও কাজ চলছে" type="button" class="btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#language">
+                                    <i class="fal fa-globe-asia"></i>
+                                </button>
+                            </li>
+                            <li><button title="ব্যাক্তিগত সেটিংস-এ এখনও কাজ চলছে" type="button" class="btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#settings">
+                                    <i class="fal fa-cog"></i>
+                                </button>
+                            </li>
+                        </ul>
+
+
+                        <!-- Language Modal Start -->
+                        <div class="modal fade" id="language" tabindex="-1" aria-labelledby="languageLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="languageLabel">Language</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Language Modal End -->
+                        <!-- Settings Modal Start -->
+                        <div class="modal fade" id="settings" tabindex="-1" aria-labelledby="settingsLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="settingsLabel">Settings</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Settings Modal End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu Part End -->
+
+    <!-- Banner Part Start -->
+    <section id="banner" style="background: url(images/bg-2.png) no-repeat center/cover; height: 100vh;">
+        <div class="container">
+            <div class="row banner_inner">
+                <div class="col-lg-10 col-12 mx-auto">
+                    <div class="banner_text">
+                        <h1 class="banner_heading">দী হিন্দু জার্নাল</h1>
+                        <h5 class="banner_tagline"><i class="fas fa-om"></i> শ্রীমদ্ভগবদ্গীতা যথাযথ এর সকল অধ্যায় সমূহ
+                            <i class="fas fa-om"></i></h5>
+                        <!-- <h5 class="banner_tagline"><i class="fas fa-om"></i> আশা করছি, এরি ক্ষুদ্র প্রচেষ্টা আপনাদের
+                            কাজে আসবে <i class="fas fa-om"></i></h5> -->
+                    </div>
+                    <!-- <div class="banner_links">
+                        <ul>
+                            <li><a href="#">গীতা</a></li>
+                            <li><a href="#">রামায়ণ</a></li>
+                            <li><a href="#">মহাভারত</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Part End -->
+
+    <!-- Gita Common Heading Part Start -->
+    <section id="common_section" style="background: #35323a;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="common_section_title">জয় শ্রী রাধে কৃষ্ণ</h3>
+                    <p class="common_section_peragraph">শ্রীমদ্ভগবত গীতা যাথাযথ হচ্ছে ভগবান শ্রীকৃষ্ণের মুখ-নিসৃত বাণী,
+                        যা মহাভারতের যুদ্ধের সময় ভগবান শ্রীকৃষ্ণ অর্জুন কে উদ্দেশ্য করে বলে ছিলো। এই গীতার উপদেশের মধ্যে
+                        আমাদের সকলের জীবনে পরম কল্যান কিভাবে সাধিত হবে তা বর্ণনা করা আছে। শ্রীমদ্ভগবত গীতা যথাযথ
+                        গ্রন্থটি রচনা করেছেন বৈদিক জ্ঞানের বিদগ্ধ পন্ডিত, ইসকন এর প্রতিষ্ঠাতা, ভগবান শ্রীকৃষ্ণের শুদ্ধ
+                        ভক্ত কৃষ্ণকৃপাশ্রীমূর্তি শ্রীল অভয়চরণারবিন্দ ভক্তিবেদান্ত স্বামী প্রভুপাদ। তিনি এই শ্রীমদ্ভগবত
+                        গীতা যথাযথ শ্রীকৃষ্ণের উপদেশ কোন রকম বিকৃতি না করে যথাযথভাবে পরিবেশন করেছেন, যা গীতার অন্যান্য
+                        সংস্করণ থেকে সম্পূর্ণ আলাদা।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gita Common Heading Part End -->
+
+    <!-- Gita Common Lesson Part Start -->
+    <section id="common_lesson" style="background: #35323a;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="common_lesson_heading">শ্রীমদ্ভাগবদগীতা যথাযথ এর সকল অধ্যায় সমূহ</h3>
+                </div>
+            </div>
+            <div class="row common_lesson_row">
+                <div class="col-lg-12">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="./gita-chapter-pages/mongoluccharon.html" class="common_lesson_item">
+                        <h5 style="text-align: center; padding-left: 0; padding-right: 0;" class="common_lesson_item_name">মঙ্গলাচরণ -- গীতা পড়া শুরু করার আগে এটি পড়ুন</h5>
+                    </a>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-1.html"
+                        class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০১</span></div>অর্জুনবিষাদযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-2.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০২</span></div>সংখ্যাযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-3.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৩</span></div>কর্মযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-4.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৪</span></div>জ্ঞানযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-5.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৫</span></div>
+                            কর্মসন্ন্যাসযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-6.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৬</span></div>ধ্যানযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-7.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৭</span></div>বিজ্ঞানযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-8.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৮</span></div>অক্ষরব্রক্ষযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-9.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">০৯</span></div>রাজগ্রহ্যযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-10.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১০</span></div>বিভূতিযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-11.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১১</span></div>
+                            বিশ্বরুপদর্শনযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-12.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১২</span></div>ভক্তিযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-13.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৩</span></div>
+                            প্রকৃতি-পুরুষ-বিবেকযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-14.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৪</span></div>
+                            গুনত্রয়-বিভাগযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-15.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৫</span></div>পুরুষোত্তম যোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-16.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৬</span></div>
+                            দৈবাসুর-সম্পদ-বিভাগযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-17.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৭</span></div>
+                            শ্রদ্ধাত্রয়-বিভাগযোগ
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a title="পড়তে এখানে ক্লিক করুন" href="gita-chapter-pages/gita-chapter-18.html" class="common_lesson_item">
+                        <h5 class="common_lesson_item_name">
+                            <div class="after_div"><span class="common_lesson_item_number">১৮</span></div>মোক্ষযোগ
+                        </h5>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <a href="#" class="common_lesson_heading">শ্রীমদ্ভাগবদগীতার উৎপত্তি / গীতা কী!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gita Common Lesson Part End -->
+
+    <!-- Common Footer Link Part Start -->
+    <section id="common_footer_links">
+        <div class="container">
+            <div class="row common_footer_links_inner">
+                <div class="col-lg-12">
+                    <ul>
+                        <li><a href="privacy.html">গোপনীয়তা</a></li>
+                        <li><a href="about-us.html">আমাদের সম্পর্কে</a></li>
+                        <li><a href="contribution.html">আপনার অবদান</a></li>
+                        <li><a href="donation.html">ডোনেশন / অনুদান</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Common Footer Link Part End -->
+
+    <!-- Header Part Start -->
+    <!-- Header Part End -->
+
+    <!-- Header Part Start -->
+    <!-- Header Part End -->
+
+    <!-- Copyright Part Start -->
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Copyright &copy; 2023 ALL Rights Reserved by
+                        <a title="Website Design and Developed by Somor Malakar"
+                            href="https://web.facebook.com/U.somor.mk.25" target="_blank">Somor</a> &
+                        <a title="User Interface Design and Assisted by Shekhor Malakar"
+                            href="https://web.facebook.com/shekhormalakar12" target="_blank">Shekhor</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright Part End -->
+
+
+    <!-- js Bundles -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Plugins -->
+    <script src="js/slick.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

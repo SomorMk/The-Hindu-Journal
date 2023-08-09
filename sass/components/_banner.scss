@@ -1,0 +1,63 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .banner_inner{
+        padding: 100px 50px 50px;
+        // background: rgba(0, 0, 0, 0.5);
+        // border: 5px solid $w;
+        border-radius: 20px;
+
+        .banner_text{
+            text-align: center;
+            .banner_heading{
+                @include fs($w,70px,700);
+                word-spacing: 10px;
+                margin-bottom: 20px;
+                user-select: none;
+            }
+            .banner_tagline{
+                @include fs($b,18px,500);
+                background: $w;
+                max-width: 70%;
+                margin: 0 auto;
+                padding: 20px;
+                border-radius: 50px 20px;
+            }
+        }
+        .banner_links{
+            margin-top: 40px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                li{
+                    margin: 0 10px;
+                    a{
+                        color: $b;
+                        font-size: 16px;
+                        font-weight: 500;
+                        background: $w;
+                        padding: 10px 30px;
+                        border-radius: 15px;
+                        &:hover{
+                            color: $w;
+                            background: $b;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Banner css end
+=========================================================*/

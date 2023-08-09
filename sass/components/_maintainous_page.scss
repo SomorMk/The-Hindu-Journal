@@ -1,0 +1,23 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                   Maintainous css Start
+=========================================================*/
+#maintainous_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    a{
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block !important;
+    }
+}
+/*=========================================================
+                   Maintainous css end
+=========================================================*/

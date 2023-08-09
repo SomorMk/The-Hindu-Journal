@@ -1,0 +1,34 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Admins css Start
+=========================================================*/
+#header{
+    padding: 10px 0;
+    background: red;
+    text-align: center;
+    background: $b;
+    .header_text{
+        @include fs($w,50px,700);
+    }
+}
+#admins_page{
+    margin-top: 10px;
+    .admin_inner{
+        .admin_image{
+            text-align: center;
+            border-bottom: 2px solid red;
+            img{
+                text-align: center;
+                max-width: 300px;
+            }
+        }
+        .admin_bio{
+            text-align: center;
+        }
+    }
+}
+/*=========================================================
+                    Admins css end
+=========================================================*/
